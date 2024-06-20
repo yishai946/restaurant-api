@@ -10,6 +10,7 @@ const db = {
           });
         console.log("Connected to mysql successfully!")
     },
+    
     query: async function (queryStr, argsArr) {
         return this.connection.query(queryStr, argsArr)
     }
